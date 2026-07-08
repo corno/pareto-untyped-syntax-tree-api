@@ -2,7 +2,7 @@ import * as p_ from 'pareto-core/interface/query_action'
 
 
 //data types
-import * as d_parse_file from "./data/parse_file.js"
+import * as d_parse_file from "../data/parse_file.js"
 
 export namespace queries {
 

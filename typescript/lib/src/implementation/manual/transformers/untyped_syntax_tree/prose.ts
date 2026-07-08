@@ -14,6 +14,7 @@ export namespace interface_ {
         }
     >
 }
+import * as temp_interface_ from "../../../../interface/declarations/transformers/untyped_syntax_tree/prose.js"
 
 //shorthands
 import * as sh from "pareto-fountain-pen/shorthands/prose/deprecated"

@@ -1,7 +1,7 @@
 import * as p_di from 'pareto-core/interface/data'
 
 //data types
-import * as d_ust from "./untyped_syntax_tree.js"
+import type * as d_ust from "./untyped_syntax_tree.js"
 
 export type Parameters = {
     'data': string

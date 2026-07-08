@@ -6,11 +6,11 @@ import type * as d_out from "pareto-fountain-pen/interface/generated/liana/schem
 import type * as d_in from "../../../data/untyped_syntax_tree.js"
 
 
-    export type Node = p_.Transformer_With_Parameter<
-        d_in.Node,
-        d_out.Phrase,
-        {
-            'depth': number
-        }
-    >
+export type Node = p_.Transformer_With_Parameter<
+    d_in.Node,
+    d_out.Phrase,
+    {
+        'depth': number
+    }
+>
 

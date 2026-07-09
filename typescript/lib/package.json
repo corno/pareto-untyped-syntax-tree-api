@@ -1,6 +1,6 @@
 {
   "name": "pareto-untyped-syntax-tree-api",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "author": "Corno",
   "license": "Apache-2.0",
   "description": "a library that specifies a query that produces an untyped syntax tree in the Pareto programming language",

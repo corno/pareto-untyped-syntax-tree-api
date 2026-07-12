@@ -1,6 +1,6 @@
 import * as p_di from 'pareto-core/interface/data'
 
-//data types
+//schemas
 import type * as s_ust from "./untyped_syntax_tree.js"
 
 export type Parameters = {

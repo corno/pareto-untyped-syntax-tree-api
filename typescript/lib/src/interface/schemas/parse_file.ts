@@ -1,15 +1,15 @@
-import * as p_di from 'pareto-core/interface/schema'
+import * as p_ from 'pareto-core/interface/schema'
 
 //schemas
 import type * as s_ust from "./untyped_syntax_tree.js"
 
 export type Parameters = {
-    'data': string
+    'data': p_.List<number>
 }
 
 export type Error =
 | ['syntax errors', {
-    'messages': p_di.List<string>
+    'messages': p_.List<string>
 }]
 
 export type Result = {

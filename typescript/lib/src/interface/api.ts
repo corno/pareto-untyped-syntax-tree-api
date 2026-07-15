@@ -7,8 +7,9 @@ import * as p_s from 'pareto-core/implementation/serializer'
 export type API = {
     'serializers': {
         'untyped syntax tree': {
-            'Node': p_s.Phrase_Serializer_With_Parameter<
+            'Node': p_t.Transformer_With_Parameter<
                 import("./schemas/untyped_syntax_tree.js").Node,
+                import("./schemas/paragraph.js").Phrase,
                 import("./schemas/untyped_syntax_tree_serialization.js").Parameters
             >
         }

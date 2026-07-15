@@ -16,9 +16,9 @@ namespace declarations {
 import * as sh from "pareto-fountain-pen/shorthands/paragraph/deprecated"
 
 export const Node: declarations.Node = ($, $p) => $p.depth === 0
-    ? sh.ph.literal("...") :
+    ? sh.ph.text("...") :
     sh.ph.composed([
-        sh.ph.literal(`Node: ${$.kind}`),
+        sh.ph.text(`Node: ${$.kind}`),
         sh.ph.indent(
             sh.pg.sentences(
                 p_.from.list($.children).map(

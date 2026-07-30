@@ -1,7 +1,7 @@
 import * as p_ from 'pareto-core/interface/schema'
 
 //schemas
-import type * as s_ust from "./untyped_syntax_tree.js"
+import type * as s_ust from "../untyped_syntax_tree/schema.js"
 
 export type Parameters = {
     'data': p_.List<number>

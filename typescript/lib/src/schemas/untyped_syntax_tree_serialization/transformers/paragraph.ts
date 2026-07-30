@@ -1,8 +1,8 @@
 import * as p_ from 'pareto-core/implementation/transformer'
 
-import type * as s_in from "../../../interface/schemas/untyped_syntax_tree.js"
-import type * as s_out from "../../../interface/schemas/paragraph.js"
-import type * as s_parameters from "../../../interface/schemas/untyped_syntax_tree_serialization.js"
+import type * as s_in from "../../untyped_syntax_tree/schema.js"
+import type * as s_out from "pareto-fountain-pen/modules/paragraph/schemas/paragraph/schema"
+import type * as s_parameters from "../schema.js"
 
 namespace declarations {
     export type Node = p_.Transformer_With_Parameter<
@@ -13,7 +13,7 @@ namespace declarations {
 }
 
 //shorthands
-import * as sh from "pareto-fountain-pen/modules/paragraph/shorthands/deprecated"
+import * as sh from "pareto-fountain-pen/modules/paragraph/schemas/paragraph/shorthands/deprecated"
 
 export const Node: declarations.Node = ($, $p) => $p.depth === 0
     ? sh.ph.text("...") :

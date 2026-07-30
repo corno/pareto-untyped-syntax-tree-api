@@ -13,7 +13,7 @@ namespace declarations {
 }
 
 //shorthands
-import * as sh from "pareto-fountain-pen/shorthands/paragraph/deprecated"
+import * as sh from "pareto-fountain-pen/modules/paragraph/shorthands/deprecated"
 
 export const Node: declarations.Node = ($, $p) => $p.depth === 0
     ? sh.ph.text("...") :

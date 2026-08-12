@@ -9,12 +9,13 @@ export type Node = {
     'kind': string
     'children': p_i.List<Node>
     'comments': Comments
-    'location': {
-        'line': number
-        'column': number
-    }
+    'location': Location
     'text': string
+}
 
+export type Location = {
+    'line': number
+    'column': number
 }
 
 export type Keyword = null

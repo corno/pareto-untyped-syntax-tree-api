@@ -1,4 +1,4 @@
-import * as p_i from 'pareto-core/interface/schema'
+import * as p_i from 'pareto-core/schema'
 
 export type Untyped_Syntax_Tree = {
     'root': Node
